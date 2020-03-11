@@ -1,0 +1,14 @@
+<!--index.html-->
+
+<!--Embed the header.html template at this location-->
+{{ template "header.html" .}}
+
+<!--Create the link for the article based on its ID-->
+<h2>{{.Title}}</h2>
+
+<!--Display the content of the article-->
+<p>{{.Content}}</p>
+<!--Embed the footer.html template at this location-->
+{{ template "footer.html" .}}
+
+
